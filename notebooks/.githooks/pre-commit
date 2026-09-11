@@ -1,0 +1,15 @@
+#!/bin/sh
+# Get the current branch name
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+# Do not allow commit on main
+if [[ "$current_branch" == "main" ]]; then
+    echo "Commit on main is not allowed. Please use a feature branch."
+    exit 1
+fi
+# make sure branch name uses proper naming convention
+if ! [[ "$branch_name" =~ ^(feature|bugfix|issue)/[a-z0-9._-]+$ ]]; then
+  echo "Error: Branch name '$branch_name' does not follow the naming convention."
+  echo "Branch names must start with 'feature/', 'bugfix/', or 'issue/' followed by a descriptive name or number."
+  exit 1
+fi
+exit 0
