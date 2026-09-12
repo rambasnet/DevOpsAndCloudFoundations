@@ -1,0 +1,6 @@
+pytest
+kattis-cli
+pytest-cov
+mypy
+black
+flake8
