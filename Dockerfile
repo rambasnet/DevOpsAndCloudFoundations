@@ -16,6 +16,7 @@ RUN apt update \
     build-essential \
     sudo \
     zsh \
+    bats\
     openssh-client \
     && rm -rf /var/lib/apt/lists/*
 
