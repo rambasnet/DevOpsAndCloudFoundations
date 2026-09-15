@@ -20,7 +20,7 @@ printf "Welcome to ASCII Art Program...\n"
 
 # prompt user to enter the semester and store the value into semester variable using input function
 read -p "What semester is this [Fall/Spring]? " semester
-echo "This is " $semester  " semester."
+echo "This is $semester semester."
 
 # FIXME5: prompt user to enter the year and store the value into year variable using input function
 # FIXME6: print the year using the variable as the following output

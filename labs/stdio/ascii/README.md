@@ -39,7 +39,7 @@ $ git push
   / @ @ \      *        ASCII Lab          *    (='.'=)
  ( > 0 < )     *       <Your Name>         *  ( " )_( " )
    >>x<<       *     <Semester Year>       *
-  /  O  \      *        CSCI 110           *
+  /  O  \      *        CSCI 210           *
                *****************************
 ```
 
